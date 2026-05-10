@@ -49,3 +49,93 @@ body::before {
     animation: none !important;
   }
 }
+
+/* Markdown Styles */
+.markdown-body {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 {
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.markdown-body p {
+  margin-bottom: 16px;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+  list-style-type: disc;
+}
+
+.markdown-body li {
+  margin-bottom: 8px;
+}
+
+.markdown-body a {
+  color: #a78bfa;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.markdown-body pre {
+  background-color: #1e1e1e;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: #e5e5e5;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  margin-top: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.markdown-body th {
+  background-color: rgba(255, 255, 255, 0.05);
+  text-align: left;
+  font-weight: 600;
+  padding: 12px 16px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-body td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.markdown-body tr:last-child td {
+  border-bottom: none;
+}

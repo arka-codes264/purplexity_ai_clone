@@ -2,7 +2,7 @@ import { createBrowserClient } from '@supabase/ssr'
 
 export function createClient() {
   return createBrowserClient(
-    import.meta.env.VITE_SUPABASE_URL!,
-    import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY!
+    "https://dxqiloadpbkxwdgeyhvf.supabase.co",
+    "sb_publishable_vv9c362DVCDbI-I6IGtgEA_8fwmVe1R"
   )
 }
